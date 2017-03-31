@@ -3,8 +3,8 @@ Plugin.extend({
     _isContainer: false,
     _render: true,
     initPlugin: function(data) {
-		this.id = _.uniqueId('org.ekstep.wordbuildgrid');
         var instance = this;
+        this.id = _.uniqueId('org.ekstep.wordbuildgrid');
         var fontsize = data.fontsize || 20;
         var dims = this.relativeDims();
         // var solve = true;
@@ -33,7 +33,7 @@ Plugin.extend({
             completeWordsArray.push(individualWordArray);
         }
         console.log("completeWordsArray: ", completeWordsArray);
-        var modDistractors = wordsearch_model.model.distractors || "क,व,खौ,ड़ाा,र,का,ना";
+        var modDistractors = wordsearch_model.model.distractors || "z,f,p,q,m,l,j";
         var objDistractors = modDistractors.split(",");
         console.log("objDistractors: ", objDistractors);
 
