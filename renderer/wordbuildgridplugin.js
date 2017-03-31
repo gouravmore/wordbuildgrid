@@ -1,9 +1,8 @@
 Plugin.extend({
-    _type: 'org.ekstep.wordgrid',
+    _type: 'wordsearch',
     _isContainer: false,
     _render: true,
     initPlugin: function(data) {
-		this.id = _.uniqueId('org.ekstep.wordgrid');
         var instance = this;
         var fontsize = data.fontsize || 20;
         var dims = this.relativeDims();
@@ -109,5 +108,3 @@ Plugin.extend({
 
     }
 });
-
-//# sourceURL=scribbleplugin.js
