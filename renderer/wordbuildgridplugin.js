@@ -1,8 +1,9 @@
 Plugin.extend({
-    _type: 'wordsearch',
+    _type: 'org.ekstep.wordbuildgrid',
     _isContainer: false,
     _render: true,
     initPlugin: function(data) {
+		this.id = _.uniqueId('org.ekstep.wordbuildgrid');
         var instance = this;
         var fontsize = data.fontsize || 20;
         var dims = this.relativeDims();

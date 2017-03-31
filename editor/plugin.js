@@ -1,20 +1,20 @@
 /**
  *
- * Simple plugin to create wordBuildGrid
- * @class wordBuildGrid
+ * Simple plugin to create wordbuildgrid
+ * @class wordbuildgrid
  * @extends EkstepEditor.basePlugin
  *
  * @author Gourav <gourav_m@tekditechnologies.com>
  * @fires object:modified
  */
 EkstepEditor.basePlugin.extend({
-    type: "org.ekstep.wordBuildGrid",
+    type: "org.ekstep.wordbuildgrid",
     initialize: function() {},
     /**
     *
     *   invoked by framework when instantiating plugin instance.
-    *   Creates and adds wordBuildGrid shape to stage.
-    *   @memberof wordBuildGrid
+    *   Creates and adds wordbuildgrid shape to stage.
+    *   @memberof wordbuildgrid
     */
     newInstance: function() {
         var props = this.convertToFabric(this.attributes),
@@ -94,4 +94,4 @@ EkstepEditor.basePlugin.extend({
         return config;
     }
 });
-//# sourceURL=scribblepadplugin.js
+//# sourceURL=wordbuildgridplugin.js
