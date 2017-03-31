@@ -9,9 +9,9 @@
     "editor": {
         "main": "editor/plugin.js",
         "dependencies": [
-            { "type": "css", "src": "lib/styles/style.css" },
+            { "type": "js", "src": "lib/src/wordfind.js" },
             { "type": "js", "src": "lib/scripts/wordfindgame.js" },
-            { "type": "js", "src": "lib/src/wordfind.js" }
+            { "type": "css", "src": "lib/styles/style.css" }
         ],
         "menu": [{
             "id": "wordbuildgrid",
